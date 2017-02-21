@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "telegram-mt-node",
   "version": "0.9.7",
   "description": "Telegram MTProto library",
@@ -27,7 +28,7 @@
     "jsbn": "0.0.0",
     "node-cryptojs-aes": "enricostara/node-cryptojs-aes",
     "requirish": "latest",
-    "telegram-tl-node": "latest"
+    "telegram-tl-node": "git+https://github.com/jclulow/telegram-tl-node.git"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.1.0",
