@@ -22,13 +22,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "assert-plus": "^1.0.0",
     "bigint-node": "1.0.4",
     "get-flow": "latest",
     "get-log": "latest",
     "jsbn": "0.0.0",
     "node-cryptojs-aes": "enricostara/node-cryptojs-aes",
     "requirish": "latest",
-    "telegram-tl-node": "git+https://github.com/jclulow/telegram-tl-node.git"
+    "telegram-tl-node": "git+https://github.com/jclulow/telegram-tl-node.git",
+    "verror": "^1.10.0"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.1.0",
